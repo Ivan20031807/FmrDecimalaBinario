@@ -1,0 +1,3 @@
+Utilice nombre significativos para los formularios
+Falta el código para encerar los checkbox(desactivar checkbox)
+Calificación: 2.7/3.0
