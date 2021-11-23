@@ -32,14 +32,14 @@ namespace FmrDecimalaBinario
             this.label1 = new System.Windows.Forms.Label();
             this.txtNumero = new System.Windows.Forms.TextBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.Encendido_o_apagado1 = new System.Windows.Forms.CheckBox();
-            this.Encendido_o_apagado2 = new System.Windows.Forms.CheckBox();
-            this.Encendido_o_apagado3 = new System.Windows.Forms.CheckBox();
-            this.Encendido_o_apagado4 = new System.Windows.Forms.CheckBox();
-            this.Encendido_o_apagado5 = new System.Windows.Forms.CheckBox();
-            this.Encendido_o_apagado6 = new System.Windows.Forms.CheckBox();
-            this.Encendido_o_apagado7 = new System.Windows.Forms.CheckBox();
             this.Encendido_o_apagado8 = new System.Windows.Forms.CheckBox();
+            this.Encendido_o_apagado7 = new System.Windows.Forms.CheckBox();
+            this.Encendido_o_apagado6 = new System.Windows.Forms.CheckBox();
+            this.Encendido_o_apagado5 = new System.Windows.Forms.CheckBox();
+            this.Encendido_o_apagado4 = new System.Windows.Forms.CheckBox();
+            this.Encendido_o_apagado3 = new System.Windows.Forms.CheckBox();
+            this.Encendido_o_apagado2 = new System.Windows.Forms.CheckBox();
+            this.Encendido_o_apagado1 = new System.Windows.Forms.CheckBox();
             this.bntCalcular = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
@@ -77,59 +77,15 @@ namespace FmrDecimalaBinario
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Equivalencia en binario";
             // 
-            // Encendido_o_apagado1
+            // Encendido_o_apagado8
             // 
-            this.Encendido_o_apagado1.AutoSize = true;
-            this.Encendido_o_apagado1.Location = new System.Drawing.Point(425, 49);
-            this.Encendido_o_apagado1.Name = "Encendido_o_apagado1";
-            this.Encendido_o_apagado1.Size = new System.Drawing.Size(15, 14);
-            this.Encendido_o_apagado1.TabIndex = 0;
-            this.Encendido_o_apagado1.UseVisualStyleBackColor = true;
-            // 
-            // Encendido_o_apagado2
-            // 
-            this.Encendido_o_apagado2.AutoSize = true;
-            this.Encendido_o_apagado2.Location = new System.Drawing.Point(381, 49);
-            this.Encendido_o_apagado2.Name = "Encendido_o_apagado2";
-            this.Encendido_o_apagado2.Size = new System.Drawing.Size(15, 14);
-            this.Encendido_o_apagado2.TabIndex = 1;
-            this.Encendido_o_apagado2.UseVisualStyleBackColor = true;
-            // 
-            // Encendido_o_apagado3
-            // 
-            this.Encendido_o_apagado3.AutoSize = true;
-            this.Encendido_o_apagado3.Location = new System.Drawing.Point(336, 49);
-            this.Encendido_o_apagado3.Name = "Encendido_o_apagado3";
-            this.Encendido_o_apagado3.Size = new System.Drawing.Size(15, 14);
-            this.Encendido_o_apagado3.TabIndex = 2;
-            this.Encendido_o_apagado3.UseVisualStyleBackColor = true;
-            // 
-            // Encendido_o_apagado4
-            // 
-            this.Encendido_o_apagado4.AutoSize = true;
-            this.Encendido_o_apagado4.Location = new System.Drawing.Point(286, 49);
-            this.Encendido_o_apagado4.Name = "Encendido_o_apagado4";
-            this.Encendido_o_apagado4.Size = new System.Drawing.Size(15, 14);
-            this.Encendido_o_apagado4.TabIndex = 3;
-            this.Encendido_o_apagado4.UseVisualStyleBackColor = true;
-            // 
-            // Encendido_o_apagado5
-            // 
-            this.Encendido_o_apagado5.AutoSize = true;
-            this.Encendido_o_apagado5.Location = new System.Drawing.Point(235, 49);
-            this.Encendido_o_apagado5.Name = "Encendido_o_apagado5";
-            this.Encendido_o_apagado5.Size = new System.Drawing.Size(15, 14);
-            this.Encendido_o_apagado5.TabIndex = 4;
-            this.Encendido_o_apagado5.UseVisualStyleBackColor = true;
-            // 
-            // Encendido_o_apagado6
-            // 
-            this.Encendido_o_apagado6.AutoSize = true;
-            this.Encendido_o_apagado6.Location = new System.Drawing.Point(175, 49);
-            this.Encendido_o_apagado6.Name = "Encendido_o_apagado6";
-            this.Encendido_o_apagado6.Size = new System.Drawing.Size(15, 14);
-            this.Encendido_o_apagado6.TabIndex = 5;
-            this.Encendido_o_apagado6.UseVisualStyleBackColor = true;
+            this.Encendido_o_apagado8.AutoSize = true;
+            this.Encendido_o_apagado8.Location = new System.Drawing.Point(59, 49);
+            this.Encendido_o_apagado8.Name = "Encendido_o_apagado8";
+            this.Encendido_o_apagado8.Size = new System.Drawing.Size(15, 14);
+            this.Encendido_o_apagado8.TabIndex = 7;
+            this.Encendido_o_apagado8.UseVisualStyleBackColor = true;
+            this.Encendido_o_apagado8.CheckedChanged += new System.EventHandler(this.Encendido_o_apagado1_CheckedChanged);
             // 
             // Encendido_o_apagado7
             // 
@@ -139,15 +95,67 @@ namespace FmrDecimalaBinario
             this.Encendido_o_apagado7.Size = new System.Drawing.Size(15, 14);
             this.Encendido_o_apagado7.TabIndex = 6;
             this.Encendido_o_apagado7.UseVisualStyleBackColor = true;
+            this.Encendido_o_apagado7.CheckedChanged += new System.EventHandler(this.Encendido_o_apagado1_CheckedChanged);
             // 
-            // Encendido_o_apagado8
+            // Encendido_o_apagado6
             // 
-            this.Encendido_o_apagado8.AutoSize = true;
-            this.Encendido_o_apagado8.Location = new System.Drawing.Point(59, 49);
-            this.Encendido_o_apagado8.Name = "Encendido_o_apagado8";
-            this.Encendido_o_apagado8.Size = new System.Drawing.Size(15, 14);
-            this.Encendido_o_apagado8.TabIndex = 7;
-            this.Encendido_o_apagado8.UseVisualStyleBackColor = true;
+            this.Encendido_o_apagado6.AutoSize = true;
+            this.Encendido_o_apagado6.Location = new System.Drawing.Point(175, 49);
+            this.Encendido_o_apagado6.Name = "Encendido_o_apagado6";
+            this.Encendido_o_apagado6.Size = new System.Drawing.Size(15, 14);
+            this.Encendido_o_apagado6.TabIndex = 5;
+            this.Encendido_o_apagado6.UseVisualStyleBackColor = true;
+            this.Encendido_o_apagado6.CheckedChanged += new System.EventHandler(this.Encendido_o_apagado1_CheckedChanged);
+            // 
+            // Encendido_o_apagado5
+            // 
+            this.Encendido_o_apagado5.AutoSize = true;
+            this.Encendido_o_apagado5.Location = new System.Drawing.Point(235, 49);
+            this.Encendido_o_apagado5.Name = "Encendido_o_apagado5";
+            this.Encendido_o_apagado5.Size = new System.Drawing.Size(15, 14);
+            this.Encendido_o_apagado5.TabIndex = 4;
+            this.Encendido_o_apagado5.UseVisualStyleBackColor = true;
+            this.Encendido_o_apagado5.CheckedChanged += new System.EventHandler(this.Encendido_o_apagado1_CheckedChanged);
+            // 
+            // Encendido_o_apagado4
+            // 
+            this.Encendido_o_apagado4.AutoSize = true;
+            this.Encendido_o_apagado4.Location = new System.Drawing.Point(286, 49);
+            this.Encendido_o_apagado4.Name = "Encendido_o_apagado4";
+            this.Encendido_o_apagado4.Size = new System.Drawing.Size(15, 14);
+            this.Encendido_o_apagado4.TabIndex = 3;
+            this.Encendido_o_apagado4.UseVisualStyleBackColor = true;
+            this.Encendido_o_apagado4.CheckedChanged += new System.EventHandler(this.Encendido_o_apagado1_CheckedChanged);
+            // 
+            // Encendido_o_apagado3
+            // 
+            this.Encendido_o_apagado3.AutoSize = true;
+            this.Encendido_o_apagado3.Location = new System.Drawing.Point(336, 49);
+            this.Encendido_o_apagado3.Name = "Encendido_o_apagado3";
+            this.Encendido_o_apagado3.Size = new System.Drawing.Size(15, 14);
+            this.Encendido_o_apagado3.TabIndex = 2;
+            this.Encendido_o_apagado3.UseVisualStyleBackColor = true;
+            this.Encendido_o_apagado3.CheckedChanged += new System.EventHandler(this.Encendido_o_apagado1_CheckedChanged);
+            // 
+            // Encendido_o_apagado2
+            // 
+            this.Encendido_o_apagado2.AutoSize = true;
+            this.Encendido_o_apagado2.Location = new System.Drawing.Point(381, 49);
+            this.Encendido_o_apagado2.Name = "Encendido_o_apagado2";
+            this.Encendido_o_apagado2.Size = new System.Drawing.Size(15, 14);
+            this.Encendido_o_apagado2.TabIndex = 1;
+            this.Encendido_o_apagado2.UseVisualStyleBackColor = true;
+            this.Encendido_o_apagado2.CheckedChanged += new System.EventHandler(this.Encendido_o_apagado1_CheckedChanged);
+            // 
+            // Encendido_o_apagado1
+            // 
+            this.Encendido_o_apagado1.AutoSize = true;
+            this.Encendido_o_apagado1.Location = new System.Drawing.Point(425, 49);
+            this.Encendido_o_apagado1.Name = "Encendido_o_apagado1";
+            this.Encendido_o_apagado1.Size = new System.Drawing.Size(15, 14);
+            this.Encendido_o_apagado1.TabIndex = 0;
+            this.Encendido_o_apagado1.UseVisualStyleBackColor = true;
+            this.Encendido_o_apagado1.CheckedChanged += new System.EventHandler(this.Encendido_o_apagado1_CheckedChanged);
             // 
             // bntCalcular
             // 

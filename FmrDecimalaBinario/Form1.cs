@@ -91,6 +91,8 @@ namespace FmrDecimalaBinario
             {
                 this.Encendido_o_apagado8.Checked = false;
             }
+            
+
         }
         private int [] binario(int num)
         {
@@ -106,6 +108,24 @@ namespace FmrDecimalaBinario
                 Console.WriteLine("{0}", resto);
             }
             return bin;
+        }
+
+        private void Encendido_o_apagado1_CheckedChanged(object sender, EventArgs e)
+        {
+            sumaBinarioaDecimal();
+        }
+        void sumaBinarioaDecimal()
+        {
+            int num = 0;
+            if (Encendido_o_apagado1.Checked) num += 1;
+            if (Encendido_o_apagado2.Checked) num += 2;
+            if (Encendido_o_apagado3.Checked) num += 4;
+            if (Encendido_o_apagado4.Checked) num += 8;
+            if (Encendido_o_apagado5.Checked) num += 16;
+            if (Encendido_o_apagado6.Checked) num += 32;
+            if (Encendido_o_apagado7.Checked) num += 64;
+            if (Encendido_o_apagado8.Checked) num += 128;
+            this.txtNumero.Text = num.ToString();
         }
     } 
     
